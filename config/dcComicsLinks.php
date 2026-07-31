@@ -32,7 +32,7 @@ return [
     ],
     [
         "id" => 6,
-        "text" => 'V"id"eos',
+        "text" => 'Videos',
         "url" => '#'
 
     ],
