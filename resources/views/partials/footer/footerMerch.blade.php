@@ -5,7 +5,7 @@ $merchs = config("merchList");
 <section class="merch-section">
     <div class="banner-bg">
         <div class="container">
-            <div className="list-merch">
+            <div class="list-merch">
                 <ul>
                     @foreach ($merchs as $merch)
                         <li>
