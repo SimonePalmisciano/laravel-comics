@@ -8,7 +8,7 @@ $comics = config("comics");
         <div class="container text-center">
             <div class="list-comics row row-gap-4 text-white">
                 @foreach ($comics as $comic)
-                <div class="col-sm col-md-4 col-lg-2">
+                <div class="col-sm-12 col-md-4 col-lg-2">
                     <x-card-comics>
                         <x-slot:src>{{$comic['thumb']}}</x-slot:src>
                         <x-slot:title>{{$comic['title']}}</x-slot:title>

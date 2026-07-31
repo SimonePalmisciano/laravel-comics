@@ -1,6 +1,6 @@
-<a href="#">
+<a href="#" class="card-merch">
     <img src="{{$src}}" alt="{{ $text }}">
-    <p>
-        {{$text}}
-    </p>
+        <p>
+            {{$text}}
+        </p>
 </a>
