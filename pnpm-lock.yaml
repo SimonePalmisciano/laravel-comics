@@ -15,7 +15,7 @@ importers:
         specifier: ^1.6.4
         version: 1.19.0
       bootstrap:
-        specifier: ^5.2.3
+        specifier: ^5.3.8
         version: 5.3.8(@popperjs/core@2.11.8)
       laravel-vite-plugin:
         specifier: ^1.0

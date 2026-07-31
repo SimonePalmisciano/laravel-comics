@@ -2,9 +2,9 @@
     <section class="header-section">
         <div class="bannerbg">
             <div class="container">
-                <nav class="navbar navbar-expand-lg text-bg-light">
-                    <div class="container-fluid justify-content-between">
-                        <div>
+                <nav class="navbar navbar-expand-lg text-bg-primary">
+                    <div class="container-fluid justify-content-between align-items-center">
+                        <div class="img-container">
                             <a class="navbar-brand" href="#">
                                 <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="logo dc comics">
                             </a>
@@ -14,7 +14,7 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                <div class="navbar-nav">
+                                <div class="navbar-nav d-flex gap-3">
                                     <a class="nav-link text-uppercase" aria-current="page" href="#">
                                         Characters
                                     </a>

@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DC Comics</title>
 
-    <link rel="icon" href="../../img/favicon.ico">
+    <link rel="icon" href="{{Vite::asset('resources.img.favicon.ico')}}">
 
     @vite(['resources/sass/app.scss', "resources/js/app.js"])
 
 </head>
 <body>
     @include("partials.header")
+    @include("partials.main.main")
     @include("partials.footer.footer")
 </body>
 </html>
